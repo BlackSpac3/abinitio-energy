@@ -12,12 +12,12 @@ const Intro = () => {
       <motion.div
         animate={slideLeft.show}
         initial={slideLeft.hidden}
-        className=""
+        className="hidden md:block"
       >
         <Image
           src={about_us_page_header_img}
           alt=""
-          className="hidden h-full max-w-[400px] rounded-lg object-cover md:block"
+          className="h-full max-w-[400px] rounded-lg object-cover"
         />
       </motion.div>
       <motion.div

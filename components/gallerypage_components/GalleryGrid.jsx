@@ -3,7 +3,7 @@ import { gallery_data } from "@/constants";
 
 const GalleryGrid = () => {
   return (
-    <div className="grid grid-cols-3 gap-5">
+    <div className="grid-cols-auto-fill-280 grid gap-5">
       {gallery_data.map((image, index) => (
         <div key={index}>
           <Image

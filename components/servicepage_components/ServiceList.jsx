@@ -81,7 +81,7 @@ const services = [
 
 const ServiceCard = ({ name, img, desc }) => {
   return (
-    <div className="flex flex-col gap-10 p-10 md:flex-row md:items-center md:group-even:flex-row-reverse">
+    <div className="flex flex-col gap-10 p-0 sm:p-10 md:flex-row md:items-center md:group-even:flex-row-reverse">
       <div className="aspect-[8/6] w-full">
         <Image
           src={img}

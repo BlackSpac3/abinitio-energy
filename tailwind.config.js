@@ -20,6 +20,9 @@ module.exports = {
         primary: "#1e764c",
         "primary-light": "#e3ede9",
       },
+      gridTemplateColumns: {
+        "auto-fill-280": "repeat(auto-fill, minmax(280px, 1fr))",
+      },
     },
   },
   plugins: [],

@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <section className="container max-w-[1024px] pb-10">
-      <div className="flex items-center justify-center rounded-lg bg-primary p-10 text-center text-white md:p-20">
+      <div className="flex items-center justify-center rounded-lg bg-primary p-7 text-center text-white sm:p-10 md:p-20">
         <div className="w-full md:w-[70%]">
           <p className="text-2xl font-bold md:text-4xl">
             Looking for a leading logistics company for your business?
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <footer className="mt-5 flex flex-col gap-10 rounded-lg bg-white p-10">
+      <footer className="mt-5 flex flex-col gap-10 rounded-lg bg-white p-5 sm:p-10">
         <div className="flex flex-col justify-between gap-5 md:flex-row md:items-center">
           <Image alt="Abinitio Energy" src={logo} className="h-auto w-28" />{" "}
           <p className="text-xl font-bold">logistics@abinitio-energy.com</p>
