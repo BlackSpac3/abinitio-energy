@@ -1,6 +1,5 @@
 import About from "@/components/homepage_components/About";
 import EasyTransport from "@/components/homepage_components/EasyTransport";
-import Hero from "@/components/homepage_components/hero";
 import Hero2 from "@/components/homepage_components/Hero2";
 import Services from "@/components/homepage_components/Services";
 import WhyChooseUs from "@/components/homepage_components/WhyChooseUs";
