@@ -8,7 +8,7 @@ const FAQs = () => {
     {
       question: "How long has your company been established?",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta at necessitatibus nisi quod tenetur vel quam deleniti dolor ipsum.",
+        "Our company has been established since 2004, bringing over 20 years of experience in providing reliable logistics solutions to the oil and gas industry.",
     },
     {
       question: "What types of fuel and gas do you transport?",
